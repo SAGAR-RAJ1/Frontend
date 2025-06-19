@@ -1,15 +1,25 @@
-
 /* Striking Bubble UI – scoped styling */
+html, body {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
 body {
-    background: radial-gradient(circle at center, #1e1e2f, #121212);
-    margin: 0;
-    padding: 0;
-  }
+  background: radial-gradient(circle at center, #1e1e2f, #121212);
+  margin: 0;
+  padding: 0;
+  padding-top: 56px; /* adjust based on navbar height */
+  flex: 1;
+}
   nav.navbar {
     background-color: rgba(21, 21, 26, 0.2) !important;
     color: white;
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1030;
   }
   
   nav.navbar .navbar-brand,
@@ -213,4 +223,10 @@ body {
 
 .buy-btn:hover {
   opacity: 0.9;
+}
+
+footer {
+ 
+
+  width: 100%;
 }

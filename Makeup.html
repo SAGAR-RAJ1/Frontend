@@ -9,7 +9,6 @@
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
 <link rel="stylesheet" href="style.css">
 <body>
-  <div id="page-content">
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container-fluid">
@@ -50,13 +49,12 @@
 
   <!-- Category Tabs -->
   <div class="tabs" id="productTabs">
-<button class="tab-btn " data-filter="all">ALL</button>
+<button class="tab-btn active" data-filter="all">ALL</button>
  <button class="tab-btn" data-filter="makeup">MAKEUP</button>
    
    
   </div>
 
-  <!-- Product Grid -->
   <div class="product-grid" id="productGrid">
     <!-- ❶ Example Card – duplicate / edit as needed -->
     <article class="card" data-category="makeup">
@@ -90,39 +88,13 @@
      
     </article>
 
-    <article class="card" data-category="skincare">
-      <img class="card-image" src="https://www.lakmeindia.com/cdn/shop/files/23049_H-8909106015722_abd5f54b-ced2-4be8-910d-10968e01d3c8.jpg?v=1738580730" alt="Lakmé Product">
-      <h3 class="title">
-        Lakmē Rouge Bloom Powder Matte Bullet</h3>
-      <p class="desc">Glowing Skin</p>
-      <p class="price">₹999</p>
-      <a href="https://www.lakmeindia.com/products/lakme-youth-infinity-serum-30-ml"> <button class="buy-btn">BUY NOW</button></a>
-     
-    </article>
-
-    <article class="card" data-category="makeup">
-      <img class="card-image" src="https://www.lakmeindia.com/cdn/shop/files/49029_H-8909106026315.jpg?v=1737961903" alt="Lakmé Product">
-      <h3 class="title">Lakmē Sun Expert Matte Fluid</h3>
-      <p class="desc">Protects from UVA & UVB</p>
-      <p class="price">₹499</p>
-      <a href="https://www.lakmeindia.com/products/lakme-sun-expert-dry-matte-fluid-spf-50-sunscreen-with-1-niac-ceramide-for-oily-skin-50ml"> <button class="buy-btn">BUY NOW</button></a>
-     
-    </article>
-
-    <article class="card" data-category="skincare">
-      <img class="card-image" src="https://www.lakmeindia.com/cdn/shop/files/27844_H-8901030996320.jpg?v=1705559551" alt="Lakmé Product">
-      <h3 class="title">Lakmē Sun Expert Invisible Sunstick</h3>
-      <p class="desc">SPF 50+ No White Cast</p>
-      <p class="price">₹899</p>
-      <a  href="https://www.lakmeindia.com/products/lakme-sun-expert-invisible-sunstick-spf-50-pa-for-uva-b-no-white-cast-on-the-go-protection-18g"> <button class="buy-btn">BUY NOW</button></a>
-     
-    </article>
 
 
   </div>
 </section>
     
-</div>
+    
+</body>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
 <script src="script.js"></script>
 </html>

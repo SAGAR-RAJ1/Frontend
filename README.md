@@ -19,7 +19,7 @@ A modern, responsive web project that displays a collection of **Lakmé** beauty
 
 ### 🧪 Live Demo
 
-🚧 *(Add GitHub Pages or deployment link here if available)*
+🚧 *frontend-mczf.vercel.app*
 
 ---
 
@@ -53,7 +53,8 @@ Frontend/
 
 ### 📸 Preview
 
-*(Insert screenshots or GIFs here)*
+*<img width="1699" alt="Screenshot 2025-06-19 at 5 49 42 PM" src="https://github.com/user-attachments/assets/711426ec-24f9-4286-b58e-4e51ebc566d3" />
+*
 
 ---
 
